@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Directory</title>
+    <script src="users.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>User Directory</h1>
+        <p>Load and filter users from an external API.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Users</h2>
+
+            <button id="load-users" type="button">
+                Load Users
+            </button>
+
+            <p>
+                <label for="filter-input">Filter users by name:</label>
+            </p>
+
+            <input
+                type="search"
+                id="filter-input"
+                placeholder="Enter a user's name"
+            >
+
+            <p id="status" aria-live="polite">
+                Select “Load Users” to begin.
+            </p>
+
+            <ul id="users-list"></ul>
+        </section>
+    </main>
+</body>
+</html>
