@@ -1,0 +1,7 @@
+# Reflection
+
+The most difficult concept in the course was system design and scalability. At the beginning, it was challenging to understand how components such as load balancers, caches, databases, read replicas and queues work together. I initially focused only on writing code and did not think about what happens when thousands or millions of users use a system at the same time. I overcame this by practicing the daily assignments, drawing diagrams and working through examples such as note-taking systems, photo-sharing applications and ticketing systems. Breaking each system into requirements, estimates, data models and architecture diagrams helped me understand the design process.
+
+Based on feedback, the part of my capstone that I would improve is the capacity-planning section. While the estimates are reasonable, I would like to use more detailed assumptions and compare multiple traffic scenarios. I would also add more information about monitoring, security and disaster recovery because those areas are important for real production systems.
+
+The next topic I plan to learn is backend development with real databases and APIs. I want to build full-stack applications where the frontend communicates with a backend service that stores data permanently. I am also interested in learning more about cloud platforms, deployment and DevOps so that I can move from building small projects to designing and operating complete systems.
